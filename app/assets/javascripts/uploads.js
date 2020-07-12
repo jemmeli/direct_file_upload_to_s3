@@ -57,7 +57,14 @@ $(document).on("turbolinks:load", function(){
                 processData: false,//we alreadu use FormData
                 data: form_data,
                 method: form.attr("method"),
-                dataType: "script" //json,js,script To continue processing
+                dataType: "json", //json,js,script To continue processing
+                success: function(response){
+                    console.log(response);
+
+                    var $img = $("<img/>", {src: response.image_url, width: 400});
+                    var $div = $("<div/>").append($img);
+                    $("#photos").append($div);
+                }
             });
 
 
