@@ -1,0 +1,5 @@
+{
+  "name": "direct_file_upload_to_s3",
+  "private": true,
+  "dependencies": {}
+}
