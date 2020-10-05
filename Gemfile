@@ -33,7 +33,7 @@ gem 'jbuilder', '~> 2.5'
 
 
 #
-gem "shrine", "~> 2.3.1"
+gem "shrine", "~> 3.3.0"
 gem 'aws-sdk', "~> 3"
 gem 'roda', "~> 2.29.0"
 gem 'jquery-fileupload-rails'

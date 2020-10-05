@@ -991,8 +991,9 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.6)
+    content_disposition (1.0.0)
     crass (1.0.6)
-    down (5.1.1)
+    down (5.2.0)
       addressable (~> 2.5)
     erubi (1.9.0)
     execjs (2.7.0)
@@ -1034,7 +1035,7 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
-    public_suffix (4.0.5)
+    public_suffix (4.0.6)
     puma (3.12.6)
     rack (2.2.3)
     rack-test (1.1.0)
@@ -1088,8 +1089,9 @@ GEM
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
-    shrine (2.3.1)
-      down (>= 2.3.5)
+    shrine (3.3.0)
+      content_disposition (~> 1.0)
+      down (~> 5.1)
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -1144,7 +1146,7 @@ DEPENDENCIES
   roda (~> 2.29.0)
   sass-rails (~> 5.0)
   selenium-webdriver
-  shrine (~> 2.3.1)
+  shrine (~> 3.3.0)
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
